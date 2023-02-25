@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>话说中国节</title>
+
+<style type="text/css">
+@import url("汉仪_川_书简/stylesheet.css");
+@import url("汉仪/stylesheet.css");
+
+.box{
+	width:1000px;
+	height:440px;
+	margin:50px auto;
+	border:2px solid #FFF;
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.3);
+	box-shadow:5px 5px 7px rgba(255,255,255,0.5);
+}
+.box li{
+	float:left;
+	position:relative;
+	width:200px;
+	height:440px;
+	box-shadow:0 0 25px #000000;
+	transition:all 0.5s;
+}
+.box li .text{
+	position:absolute;
+	left:0;
+	bottom:0;
+	font-size:16px;
+	color:#FFF;
+	width:128%;
+	height:60px;
+	text-align:center;
+	line-height:30px;
+	background:#000;
+	background-color:rgba(0,0,0,0.7);
+}
+.box:hover li{
+	width:125px;
+}
+.box li:hover{
+	width:500px;
+}
+.start{
+	font-size:25px;
+	color:#03C;
+	background:linear-gradient(
+	to right bottom,
+	rgba(255,255,255,0.6),
+	rgba(255,255,255,0.1)
+	);
+	/*background-color:#497271;*/
+	border-radius:10px;
+	height:20px;
+	line-height:20px;
+	width:200px;
+	text-align:center;
+	margin:0 auto;
+	padding:20px;
+	box-shadow:rgba(0,0,0,0.5) 3px 3px 4px;
+	position:relative;
+}
+.start a{
+	text-decoration:none;
+	color:#000;
+}
+.mask{
+	position:absolute;
+	display:block;
+	height:0;
+	background-color:#0f0;
+	opacity:1;
+	width:0;
+	left:50%;
+	top:50%;
+	border-radius:50%;
+}
+.start:hover .mask{
+	animation-name:animation;
+	animation-duration:1s;
+}
+@Keyframes animation{
+	from{
+		width:1px;
+		height:1px;
+		transform:scale(0);
+		opacity:1;
+	}
+	to{
+		width:1px;
+		height:1px;
+		transform:scale(100);
+		opacity:0;
+	}
+}
+
+.ziti {
+	font-family: "幼圆";
+	font-size: 36px;
+}
+.zt {
+	font-family: "汉仪";
+	font-size: 36px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body background="imgic/fengmian/beijing.jpg">
+<p>
+<p><p class="zt">
+<a href="shouye.html">话说中国节<span class="mask"></span></a>
+
+</p>
+<ul class="box">
+  <li>
+    <img src="imgic/fengmian/1.jpg" alt="" /> 
+    <div class="text">鞭炮声声迎新年，妙联横生贴门前。</div>
+  </li>  
+  <li><img src="imgic/fengmian/2.jpg" alt="">
+    <div class="text">借问酒家何处有，牧童遥指杏花村。</div>
+  </li>
+  <li>
+    <img src="imgic/fengmian/3.jpg" alt="">
+    <div class="text">屈子冤魂终古在，楚乡遗俗至今留。</div>
+  </li>    
+  <li>
+    <img src="imgic/fengmian/4.jpg" alt="">
+    <div class="text">万里无云镜九州，最团圆夜是中秋。</div>
+  </li>  
+</ul>
+<div class="start">
+<a href="shouye.html">进入首页<span class="mask"></span></a>
+</div>
+
+</body>
+</html>
